@@ -1,8 +1,9 @@
-package easy;
+package leetcode.easy;
 
 import static java.lang.Math.max;
+import leetcode.TreeNode;
 
-class Solution {
+class MaximumDepthOfBinaryTree {
     int maxDepth = 0;
     public int maxDepth(TreeNode root) {
         this.search(root, 0);

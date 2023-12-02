@@ -1,6 +1,6 @@
-package easy;
-import TreeNode;
-class Solution {
+package leetcode.easy;
+import leetcode.TreeNode;
+class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p != null && q != null && p.val != q.val) {
             return false;

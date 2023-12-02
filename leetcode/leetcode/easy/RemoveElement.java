@@ -1,6 +1,6 @@
-package easy;
+package leetcode.easy;
 
-class Solution {
+class RemoveElement {
     public int removeElement(int[] nums, int val) {
         if(nums.length == 0){
             return 0;
