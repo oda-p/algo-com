@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTreePreorderTravel {
-    private List<Integer> preorderTravels = new ArrayList<Integer>();
+    private final List<Integer> preorderTravels = new ArrayList<>();
     private void travel(TreeNode nowNode){
         if(nowNode == null){
             return;
